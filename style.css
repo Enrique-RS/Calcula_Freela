@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+
+.barra-navegacao {
+    height: 100px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(46, 41, 128);
+}
+.barra-navegacao-logotipo {
+    height: 32px;
+    width: auto;
+}
+fieldset {
+    border: 2px solid #7f3f84;
+}
+fieldset:first-child {
+    margin-top: 45px; 
+}
+legend {
+    color: #7f3f84;
+    font-weight: 400;
+}
+button {
+    margin-top: 45px;
+    padding: 12px;
+    border: none;
+    border-radius: 20px;
+    font-size: 18px;
+}
+.rodape {
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 32px;
+    font-style: italic;
+    background-color: rgba(148, 107, 150, 0.1);
+    color: #7f3f84;
+}

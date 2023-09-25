@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./style.css">
+    <title>Calculadora</title>
+</head>
+<body>
+    <nav class="barra-navegacao">
+        <img src="./img/favicon-32x32.png" alt="logotipo da calculadora" class="barra-navegacao-logotipo">
+    </nav>
+    <main>
+        <section>
+            <article>
+                <fieldset>
+                    <legend>Quanto você ganha por mês?</legend>
+                    <input type="number" placeholder="0" id="mes">
+                </fieldset>
+                <fieldset>
+                    <legend>Quantas horas você trabalha por dia?</legend>
+                    <input type="number" placeholder="0" id="horas">
+                </fieldset>
+                <fieldset>
+                    <legend>Quantos dias você trabalha por mês?</legend>
+                    <input type="number" placeholder="0" id="dias">
+                </fieldset>
+                <button onclick="calculaHora()">Calcular</button>
+            </article>
+        </section>
+        <footer>
+            <h3>
+                <p>
+                    R$<span id="resposta"> 0,00</span>/<small>hora</small>
+                </p> 
+            </h3>
+        </footer>
+    </main>
+    <footer class="rodape">
+        Feito com muito perrengue
+    </footer>
+    <script src="./calculadora.js"></script>
+</body>
+</html>
