@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
-
+body {
+    background-color: azure;
+}
 .barra-navegacao {
     height: 100px;
     width: auto;
@@ -22,12 +24,19 @@ legend {
     color: #7f3f84;
     font-weight: 400;
 }
+input {
+    padding: 2px 8px;
+    font-size: 24px;
+    border: 1px solid #7f3f84;
+    border-radius: 10px;
+}
 button {
     margin-top: 45px;
-    padding: 12px;
+    padding: 16px;
     border: none;
     border-radius: 20px;
-    font-size: 18px;
+    font-size: 24px;
+    font-weight: 400;
 }
 .rodape {
     height: 75px;
